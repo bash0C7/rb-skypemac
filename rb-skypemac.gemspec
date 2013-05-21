@@ -6,8 +6,8 @@ require 'rb-skypemac/version'
 Gem::Specification.new do |spec|
   spec.name          = "rb-skypemac"
   spec.version       = SkypeMac::VERSION
-  spec.authors       = ["Evan Light", "Toshiaki Koshiba"]
-  spec.email         = ["toshiaki_koshiba+github@voyagegroup.com"]
+  spec.authors       = ["(original)Evan Light", "(fork)Toshiaki Koshiba"]
+  spec.email         = ["koshiba+github@4038nullpointer.com"]
   spec.description   = 'A simple Ruby interface to Skype for use with Mac OS X.'
   spec.summary       = 'A simple Ruby interface to Skype for use with Mac OS X.'
   spec.homepage      = "https://github.com/bash0C7/rb-skypemac"

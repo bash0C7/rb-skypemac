@@ -3,4 +3,4 @@ $: << File.expand_path('../../lib', __FILE__)
 require 'rb-skypemac'
 require 'pry'
 include SkypeMac
-pry
+SkypeMac.pry
