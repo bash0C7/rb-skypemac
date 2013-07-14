@@ -12,7 +12,7 @@ Migrated to github due to popular request.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add this line to your Gemfile:
 
     gem 'rb-skypemac'
 
