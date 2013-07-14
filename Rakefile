@@ -50,3 +50,9 @@ task :check_version do
     exit
   end
 end
+
+Rake::TestTask.new do |t|
+     t.libs << "test"
+     t.test_files = FileList['test/test*.rb']
+     t.verbose = true
+end
