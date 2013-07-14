@@ -4,22 +4,22 @@ include SkypeMac
 class TestUser < Test::Unit::TestCase
 
   def setup
-    @user = User.new "sleight42"
+    @user = User.new "echo123"
   end
 
   def test_handle
     assert @user.handle
-    assert @user.handle == "sleight42"
+    assert @user.handle == "echo123"
   end
   
   def test_fullname
     assert @user.fullname
-    assert @user.fullname == "Evan"
+    assert @user.fullname == "Echo / Sound Test Service"
   end
   
   def test_city
     assert @user.city
-    assert @user.city == "Vienna"
+    assert @user.city == ""
   end
   
   def test_isblocked
